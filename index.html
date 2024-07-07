@@ -30,10 +30,13 @@
             <div class="container">
                 <section class="contacts"  id="contacts">
                     <h2 class="section-title"><a href="#nav_contacts">My Contacts</a></h2>
-                    <p>phone: +380(63)11-36-462</p>
-                    <p>email: v.suprun1961@gmail.com</p>
-                    <p>Telegram: @svictoria1961</p>
-                    <p class="last">Viber: ВИКТОРИЯ</p>
+                    <ul class="contacts__list">
+                        <li class="contacts__li">phone: +380(63)11-36-462</li>
+                        <li class="contacts__li">email: v.suprun1961@gmail.com</li>
+                        <li class="contacts__li">Telegram: @svictoria1961</li>
+                        <li class="contacts__li last">Viber: ВИКТОРИЯ</li>
+                        <!-- <li></li> -->
+                    </ul>
                 </section>
                 <section class="about" id="about">
                     <h2 class="section-title"><a href="#nav_about">About Me</a></h2>
@@ -79,43 +82,42 @@
                             </tr>
                         </tbody>
                     </table>
-                    <h2 class="section-title">Additional education</h2>
-                    <p>1. Rolling Scopes School<br>
-                    1.1 RS School Course «JavaScript/Front-end. Stage 0 2024»<br>
-                        <span>in progress</span><br>
-                    1.2 RS School Course «JavaScript/Front-end. Stage 0 2023»<br>
-                    Certificate <a href="./img/RS-school_page-0001.jpg" target="_blank">RS SCHOOL</a></p>
-                    <p>2. Courses in HTML, CSS and JavaScript.<br>
-                    2.1 Certificate <a href="./img/front-end-javascript.jpg" target="_blank">Front-end-javascript</a><br>
-                    2.2 Certificate <a href="./img/layout.png" target="_blank">Layout</a><br>
-                    2.3 Certificate <a href="./img/javascript.png" target="_blank">JavaScript</a></p>
-                    <p>3. Programming courses for beginners. <br>  Certificate <a href="./img/programmirovanie.png" target="_blank">Programmirovanie</a></p>
-                    <p>4. Web design courses.  <br> Certificate <a href="./img/veb-designer.png" target="_blank">Veb-designer</a></p>
-                    <p>5. Digital design UX/UI.<br>5.1 Certificate <a href="./img/digital-design.png" target="_blank">Digital-design</a><br>
-                        5.2 Certificate <a href="./img/ux-ui-start.jpeg" target="_blank">Ux-ui-start</a></p>
+                    <h2 class="section-title">Additional education (skills)</h2>
+                    <ul class="education__list">
+                        <li class="education__li">1. Rolling Scopes School
+                            <ul class="education__list_second">
+                                <li class="education__li">1.1 RS School Course «JavaScript/Front-end. Stage 0 2024»<br><span>in progress</span></li>
+                                <li class="education__li">1.2 RS School Course «JavaScript/Front-end. Stage 0 2023»<br>
+                                    Certificate <a href="./img/RS-school_page-0001.jpg" target="_blank">RS SCHOOL</a></li>
+                            </ul>
+                        </li>
+                        <li class="education__li">2. Courses in HTML, CSS and JavaScript.
+                            <ul class="education__list_second">
+                                <li class="education__li">2.1 Certificate <a href="./img/front-end-javascript.jpg" target="_blank">Front-end-javascript</a></li>
+                                <li class="education__li">2.2 Certificate <a href="./img/layout.png" target="_blank">Layout</a></li>
+                                <li class="education__li">2.3 Certificate <a href="./img/javascript.png" target="_blank">JavaScript</a></li>
+                            </ul>
+                        </li>
+                        <li class="education__li">3. Programming courses for beginners. <br>  Certificate <a href="./img/programmirovanie.png" target="_blank">Programming</a></li>
+                        <li class="education__li">4. Web design courses.  <br> Certificate <a href="./img/veb-designer.png" target="_blank">Veb-designer</a></li>
+                        <li class="education__li">5. Digital design UX/UI.<br>
+                            <ul class="education__list_second">
+                                <li class="education__li">5.1 Certificate <a href="./img/digital-design.png" target="_blank">Digital-design</a></li>
+                                <li class="education__li last">5.2 Certificate <a href="./img/ux-ui-start.jpeg" target="_blank">Ux-ui-start</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </section>
                 <section class="projects" id="projects">
                     <h2 class="section-title"><a href="#nav_projects">My projects</a></h2>
-                    <div class="projects__a">
-                        <p>
-                            <a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/random-game/" target="_blank">1. HTML5, CSS3, JavaScript</a>
-                        </p>
-                        <p>
-                            <a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/image-galery/" target="_blank">2. HTML5, CSS3, JavaScript</a>
-                        </p>
-                        <p>
-                            <a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/audio-player/" target="_blank">3. HTML5, CSS3, JavaScript</a>
-                        </p>
-                        <p>
-                            <a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/library/" target="_blank">4. HTML5, CSS3, JavaScript</a>
-                        </p>
-                        <p>
-                            <a href="https://viktoriya-s.github.io/music/" target="_blank">5. HTML5, CSS3, JavaScript</a>
-                        </p>
-                        <p class="last">
-                            <a href="https://viktoriya-s.github.io/banderogys/" target="_blank">6. HTML5, CSS3, JavaScript, UX/UI</a>
-                        </p>
-                    </div>
+                    <ul class="projects__list">
+                        <li class="projects__li"><a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/random-game/" target="_blank">1. HTML5, CSS3, JavaScript</a></li>
+                        <li class="projects__li"><a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/image-galery/" target="_blank">2. HTML5, CSS3, JavaScript</a></li>
+                        <li class="projects__li"><a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/audio-player/" target="_blank">3. HTML5, CSS3, JavaScript</a></li>
+                        <li class="projects__li"><a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/library/" target="_blank">4. HTML5, CSS3, JavaScript</a></li>
+                        <li class="projects__li"><a href="https://viktoriya-s.github.io/music/" target="_blank">5. HTML5, CSS3, JavaScript</a></li>
+                        <li class="projects__li last"><a href="https://viktoriya-s.github.io/banderogys/" target="_blank">6. HTML5, CSS3, JavaScript, UX/UI</a></li>
+                    </ul>
                 </section>
                 <section class="code" id="code">
                     <h2 class="section-title"><a href="#nav_code">Code Example</a></h2>
@@ -155,11 +157,11 @@
                 </section>
                 <section class="languages" id="languages">
                     <h2 class="section-title"><a href="#nav_languages">Languages</a></h2>
-                    <div class="last">
-                        <p>Ukrainian - native</p>
-                        <p>Russian - native</p>
-                        <p>English - in progress</p>
-                    </div>
+                    <ul class="languages__list">
+                        <li class="languages__li">Ukrainian - native</li>
+                        <li class="languages__li">Russian - native</li>
+                        <li class="languages__li last">English - in progress</li>
+                    </ul>
                 </section>
             </div>
         </main>
