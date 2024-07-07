@@ -74,3 +74,109 @@
     margin-top: 150px;
     margin-left: 220px;
   }
+
+  .contacts,
+  .about,
+  .education,
+  .projects,
+  .code,
+  .languages,
+  .footer {
+    background: rgba(152, 153, 249, 0.297);
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .education {
+    padding-bottom: 10px;
+      }
+
+  .section-title {
+    color: #fdfcfc;
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+.contacts p,
+.about p,
+.education p,
+.code p,
+.languages p {
+  margin: 0;
+  color: #fdfcfcb9;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.last {
+  padding-bottom: 40px;
+}
+
+table,
+th,
+tr,
+td {
+  color: #fefdfd9f;
+  border: solid 1px rgb(250, 250, 251);
+  font-size: 36px;
+  margin: 0 auto;
+}
+
+th,
+span {
+  color: #fefdfd;
+}
+
+table {
+  margin-bottom: 40px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.projects__a {
+  text-align: center;
+}
+
+.projects__a p {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.code__title {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  color: #fdfcfc;
+  padding-bottom: 40px;
+}
+
+.code__description,
+.languages div {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.code_code {
+  font-size: 28px;
+  color: #ffffffb9;
+}
+
+pre {
+  margin: 0;
+}
+
+.languages p {
+margin-bottom: 0;
+}
