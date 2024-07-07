@@ -180,3 +180,20 @@ pre {
 .languages p {
 margin-bottom: 0;
 }
+
+.footer {
+  margin-bottom: 0;
+}
+
+.footer__wrapper {
+  padding: 40px;
+  margin: auto;
+}
+
+.footer__wrapper a {
+  font-size: 30px;
+}
+
+.footer_a {
+  margin-left: 78%;
+}
