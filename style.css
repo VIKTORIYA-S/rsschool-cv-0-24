@@ -135,7 +135,8 @@ a:hover {
 .contacts p,
 .about p,
 .education p,
-.code p {
+.code p,
+.footer p {
 margin: 0;
 color: #fdfcfcb9;
 font-size: 30px;
@@ -219,10 +220,14 @@ padding: 40px;
 margin: auto;
 }
 
-.footer__wrapper a {
-font-size: 30px;
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+padding-right: 70px;
 }
 
-.footer_a {
-margin-left: 77%;
+.footer p {
+  margin: 0;
 }
